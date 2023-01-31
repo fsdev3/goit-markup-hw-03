@@ -16,6 +16,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+html {
+  box-sizing: border-box;
+}
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 .logo {
   font-family: 'Raleway';
