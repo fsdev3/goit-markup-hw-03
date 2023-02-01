@@ -15,15 +15,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-html {
-  box-sizing: border-box;
-}
-*, 
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+ }
+
 
 .logo {
   font-family: 'Raleway';
@@ -155,4 +148,20 @@ html {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+/* container */
+.container {
+  width: 1158px;
+    outline: 2px solid orange;
+    padding: 0 15px; 
+    margin: 0 auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
 }
