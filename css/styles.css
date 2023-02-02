@@ -35,6 +35,8 @@ body {
 }
 .list {
   list-style: none;
+  /* padding: 0px;
+  margin: 0px; */
 }
 .nav-link {
   font-weight: 500;
@@ -56,23 +58,33 @@ body {
 /* section hero */
 .section-hero {
   background-color: var(--dark-bg-color);
+  text-align: center;
 }
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
+  
   color: var(--primary-white-color);
-}
+  padding-top: 0;
+  padding-bottom: 48px;
+ 
+ }
 .button-order {
+  display: inline-block;
   background: var(--logo-and-button-color);
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  align-items: center;
+  
+  text-align: center;
   color: var(--primary-white-color);
+  padding: 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
 }
 .button-order:hover,
 .button-order:focus {
@@ -82,12 +94,21 @@ body {
   cursor: pointer;
 }
 /* section two */
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+ }
+ .section.no-padding {
+  padding-top: 0px;
+  padding-bottom: 0px;
+ }
 .future-list .title,
 .teammate-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--title-text-color);
+  
 }
 
 .section-title {
@@ -97,6 +118,8 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--title-text-color);
+  padding-bottom: 72px;
+  padding-top: 120px;
 }
 /* section our team */
 .our-team {
@@ -152,11 +175,11 @@ body {
 /* container */
 .container {
   width: 1158px;
-    outline: 2px solid orange;
-    padding: 0 15px; 
-    margin: 0 auto;
+  outline: 2px solid orange;
+  padding: 0 15px; 
+  margin: 0 auto;
 }
-
+/* resets */
 ul {
   margin: 0;
   padding: 0;
