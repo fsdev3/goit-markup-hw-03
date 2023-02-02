@@ -8,6 +8,15 @@
   --dark-bg-color: #2e2f42;
   --footer-text-color: #e7e9fc;
 }
+/* utulities */
+.link {
+  text-decoration: none;
+}
+.item, .list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
@@ -16,7 +25,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
  }
-
 
 .logo {
   font-family: 'Raleway';
@@ -30,31 +38,47 @@ body {
 .logo-first {
   color: var(--logo-and-button-color);
 }
-.link {
-  text-decoration: none;
-}
-.list {
-  list-style: none;
-  /* padding: 0px;
-  margin: 0px; */
-}
-
-.site-nav  {
+.header-container {
   display: flex;
+  align-items: center;
+  justify-content: flex-around;
+}
+.site-nav {
+  display: flex;
+  margin-left: 76px;
+}
+.main-nav  {
+  display: flex;
+  align-items: center;
+}
+/* all except first neighbor */
+.addr-list .item + .item {
+  margin-left: 40px;
+}
+.addr-list {
+  display: flex;
+  }
+.addr-main {
+  margin-left: auto;
 }
 
-.site-nav .list:not(:last-child) {
+.site-nav .item:not(:last-child) {
   margin-right: 40px;
 }
 .nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-weight: 500;
   color: var(--title-text-color);
-}
+  }
 .nav-link:hover,
 .nav-link:focus,
 .nav-link.current {
   color: var(--accent-color);
 }
+
 .addr-link {
   font-style: normal;
   color: var(--primary-text-color);
@@ -63,6 +87,7 @@ body {
 .addr-link:focus {
   color: var(--accent-color);
 }
+
 /* section hero */
 .section-hero {
   background-color: var(--dark-bg-color);
@@ -76,8 +101,7 @@ body {
   color: var(--primary-white-color);
   padding-top: 0;
   padding-bottom: 48px;
- 
- }
+}
 .button-order {
   display: inline-block;
   background: var(--logo-and-button-color);
