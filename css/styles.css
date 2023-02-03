@@ -217,6 +217,7 @@ border-radius: 0px 0px 4px 4px;
     }
 /* portfolio.html */
 .button-filter {
+  padding: 12px 24px;
   background: var(--secondary-white-color);
   font-family: inherit;
   font-size: 16px;
@@ -226,14 +227,27 @@ border-radius: 0px 0px 4px 4px;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--logo-and-button-color);
-  
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
 }
 .button-filter:hover,
 .button-filter:focus {
   background: var(--accent-color);
   color: var(--primary-white-color);
-    
+ }
+.button-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  padding-bottom: 72px;
 }
+.button-list .item {
+  margin-right: 24px;
+}
+.button-list .item:last-child {
+  margin-right: 0;
+}
+
 .project-item {
   font-weight: 500;
   font-size: 20px;
