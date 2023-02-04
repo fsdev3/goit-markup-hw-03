@@ -145,7 +145,6 @@ body {
 }
 .section.no-padding {
   padding-top: 0px;
-  padding-bottom: 0px;
 }
 .future-list {
   display: flex;
@@ -183,7 +182,6 @@ body {
   text-transform: capitalize;
   color: var(--title-text-color);
   padding-bottom: 72px;
-  padding-top: 120px;
 }
 /* section our team */
 .our-team {
