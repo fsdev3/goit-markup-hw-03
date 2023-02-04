@@ -49,6 +49,9 @@ body {
   align-items: center;
   justify-content: flex-around;
 }
+.header-items {
+  border-bottom: 1px solid var(--footer-text-color);
+}
 .site-nav {
   display: flex;
   margin-left: 76px;
@@ -280,7 +283,6 @@ body {
 .portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
-  border-top: 1px solid var(--footer-text-color);
 }
 .project-title {
   font-weight: 500;
