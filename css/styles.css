@@ -88,6 +88,8 @@ body {
 .addr-link {
   font-style: normal;
   color: var(--primary-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .addr-link:hover,
 .addr-link:focus {
@@ -278,6 +280,7 @@ body {
 .portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
+  border-top: 1px solid var(--footer-text-color);
 }
 .project-title {
   font-weight: 500;
